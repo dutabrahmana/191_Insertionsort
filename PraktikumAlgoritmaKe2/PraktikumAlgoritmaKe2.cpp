@@ -67,7 +67,7 @@ void display() {		// Prosedur untuk menampilkan hasil
 
 int main()
 {
-	input();
-	insertionsort();
-	display();
+	input();			// Memangil input 
+	insertionsort();	// Memangil insertionsort
+	display();			// Memangil Display
 }
