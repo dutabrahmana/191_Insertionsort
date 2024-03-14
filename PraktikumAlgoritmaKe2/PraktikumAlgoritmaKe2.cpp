@@ -64,3 +64,10 @@ void display() {		// Prosedur untuk menampilkan hasil
 	}
 	cout << endl;
 }
+
+int main()
+{
+	input();
+	insertionsort();
+	display();
+}
