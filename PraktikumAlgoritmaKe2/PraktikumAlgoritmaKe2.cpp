@@ -52,15 +52,15 @@ void insertionsort() {			// procedure insertionsort
 		}
 	}
 }
-void display() {		
-	cout << endl;		
-	cout << "==============================" << endl;		
-	cout << "Element Array yang telah disusun" << endl;		
-	cout << "==============================" << endl;		
-			
-	for (int j = 0; j < n; j++) {				
-		
-		cout << arr[j] << endl;					
+void display() {		// Prosedur untuk menampilkan hasil 
+	cout << endl;		// Output baris kosong
+	cout << "==============================" << endl;		// Output ke layar 
+	cout << "Element Array yang telah disusun" << endl;		// Output ke layar
+	cout << "==============================" << endl;		// Output ke layar
+
+	for (int j = 0; j < n; j++) {				// Looping dengan j dimulai dari o hingga n-1
+
+		cout << arr[j] << endl;					// Output ke layar
 	}
 	cout << endl;
 }
